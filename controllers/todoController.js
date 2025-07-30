@@ -1,6 +1,6 @@
 const Todo = require('../models/Todo');
 
-// @desc    گرفتن تمام تسک‌ها
+// @desc    گرفتن تمامی تسک‌ها
 // @route   GET /api/todos
 exports.getTodos = async (req, res) => {
   try {
